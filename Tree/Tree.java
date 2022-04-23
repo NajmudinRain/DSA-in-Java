@@ -4,7 +4,7 @@ public class Tree {
 	static Scanner sc=null; 
 public static void main(String[]args) {
 
-		sc= new Scanner(System.in);
+	sc= new Scanner(System.in);
 	Node root=createTree();
 	inOrder(root);
 	System.out.println();
@@ -17,13 +17,13 @@ public static void main(String[]args) {
 static Node createTree() {
 	Node root=null;
 	System.out.print("Enter data: ");
-	int data=sc.nextInt();
+	int data=sc.nextInt(); 
 	if(data==-1)return null;
 	
 	root=new Node(data);
 	System.out.print("enter the left for"+data);
 	root.left=createTree();
-	System.out.print("enter the roght for"+data);
+	System.out.print("enter the right for"+data);
 	root.right=createTree();
 	
 	

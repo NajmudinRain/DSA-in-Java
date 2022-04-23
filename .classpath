@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Array/SearchAlgo/src/|CondAndLoopStat/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="Array/SearchAlgo/src"/>
+	<classpathentry kind="src" path="CondAndLoopStat/src"/>
+	<classpathentry kind="output" path="Array/SearchAlgo/out/production/SearchAlgo"/>
+</classpath>
